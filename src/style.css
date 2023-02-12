@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    /* background-color: bisque; */
+}
+
+.gallery {
+    margin-top: 5px;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo-card {
+    width: 400px;
+}
+
+.info {
+    display: flex;
+    gap: 5px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.gallery__image {
+    display: block;
+    height: 245px;
+    width: 100%;
+    object-fit: scale-down
+}
+
+.info-item {
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.search-form {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(144, 213, 103, 1) 33%, rgba(0, 212, 255, 1) 100%);
+    padding: 20px 0;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.search-form > input {
+    color: lightslategray;
+    font-style: italic;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-size: 30px;
+    padding: 0 10px;
+}
+
+.search-form>button {
+    color: lightslategray;
+    font-style: italic;
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.disabled {
+    display: none;
+}
+
+.load-more {
+    display: flex;
+    margin: auto;
+    color: lightslategray;
+    font-style: italic;
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
